@@ -1,0 +1,65 @@
+h1,h2,p,form{
+	font-family: arial;
+	color: white;
+}
+h1{
+	font-size: 50px;
+	margin: 50px 0px 25px 0px;
+	text-shadow: 2px 2px #0066cc, 2px 2px 4px black;
+}
+body{
+	background-image: url(Images/TuteeLearning.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+form{
+	display: block;
+}
+label{
+	margin: 25px 135px 0px 0px;
+	font-size: 25px;
+	display: block;
+	text-shadow: 1px 1px #0099ff, 1px 1px 2px black
+}
+input[type=text], select {
+  width: 250px;
+  padding: 10px 20px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 250px;
+  padding: 10px 20px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100px;
+  background-color: #008fb3;
+  color: white;
+  padding: 7px 20px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#FormLogin{
+  	border-radius: 10px;
+	width: 30%;
+	box-shadow: 4px 4px 5px #404040;
+  	background: rgb(192, 192, 192, 0.5);
+  	padding: 25px 50px 75px 50px;
+  	margin: 100px 50px 100px 50px;
+}
+input{
+	display: block;
+}
+

@@ -1,0 +1,5 @@
+3 Deadly Sins I Addressed
+
+1. No Hidden Inputs
+2. Never hard code queries
+3. Not Validate Queries

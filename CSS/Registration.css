@@ -1,0 +1,93 @@
+h1,h2,p,form{
+  font-family: arial;
+  color: white;
+}
+h1{
+  font-size: 35px;
+  margin: 35px 0px 25px 0px;
+  text-shadow: 2px 2px #4d3319, 2px 2px 4px black;
+}
+body{
+  background-image: url(Images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+form{
+  display: block;
+}
+label{
+  margin-top: 25px; 
+  font-size: 25px;
+  text-shadow: 1px 1px #994d00, 1px 1px 2px black
+}
+.x{
+  margin-left: 11%; 
+  font-size: 25px;
+  display: inline-block;
+  text-shadow: 1px 1px #994d00, 1px 1px 2px black
+}
+input[type=text], select {
+    width: 350px;
+    padding: 10px 20px;
+    margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+  width: 350px;
+  padding: 10px 20px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 350px;
+  padding: 10px 20px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100px;
+  background-color: #cc6600;
+  color: white;
+  padding: 7px 20px;
+  margin: 25px 0px 20px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#Registration{
+  float: center;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 4px 4px 5px #404040;
+  background: rgb(192, 192, 192, 0.5);
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 2.5%; 
+  padding-right: 2.5%;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+input{
+  display: block;
+}
+
+#error_msg{
+  margin: 20px 0px 0px 0px;
+  color:red
+  ; font-weight:bold;
+}
